@@ -1,0 +1,49 @@
+
+.cont-header {
+    color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-str {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-str input[type = "text"]{
+    border: none;
+    border-radius: 5px;
+    padding: 12px 10px;
+    background-color: orange;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit button[type="submit"]{
+    margin-top:15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding :12px 20px;
+    background-color: orange;
+    border-color: orange;
+}
+.table-container {
+    width: 30%; 
+    display: inline-block; 
+    margin-right: 5px; 
+  }
+  
+  table {
+    width: 20%;
+    border-collapse: collapse;
+    border: 1px solid orange;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
