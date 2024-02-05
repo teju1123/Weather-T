@@ -11,10 +11,10 @@
     align-items: center;
 }
 .input-str input[type = "text"]{
-    border: none;
+    border-color: orange;
     border-radius: 5px;
     padding: 12px 10px;
-    background-color: orange;
+    width: 13%;
 }
 .submit{
     display: flex;
@@ -31,19 +31,23 @@
     border-color: orange;
 }
 .table-container {
-    width: 30%; 
-    display: inline-block; 
-    margin-right: 5px; 
+    width: calc(20% - 10px);
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 20px;
+  }
+th, td {
+    padding: 8px;
+    text-align: center;
   }
   
-  table {
-    width: 20%;
-    border-collapse: collapse;
+  th {
+    background-color: #f9f9f9;
     border: 1px solid orange;
   }
   
-  th, td {
-    padding: 8px;
-    text-align: left;
-  }
+  td {
+    background-color: #f9f9f9;
+    border: 1px solid orange;
+  } 
   
